@@ -1,0 +1,84 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: azure;
+    font-family: 'Roboto', sans-serif;
+}
+profile-image{
+    width: 100px;
+    height: 120px;
+    border-radius: 30px;
+    margin: 3px;
+}
+.container{
+    background-color: green;
+    max-width: 1000px;
+    margin: 0px auto;
+    padding: 10px;
+}
+.profile-image{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 40px;
+    float: left;
+}
+.profile-bio{
+    float: left;
+    padding: 30px;
+    
+}
+.header-contact{
+    float: right;
+    padding: 30px;
+   
+}
+.header-contact a{
+    text-decoration: none;
+    color: aqua;
+    font-weight: bold;
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color: red;
+    
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: solid black 3px;
+}
+#personal-section{
+    margin: 0 auto;
+   
+}
+.content{
+
+}
+.left-div{
+    width: 30%;
+    float: left;
+    
+}
+.right-div{
+    width: 70%;
+    float: left;
+    
+}
+.common-hr{
+    border: solid black 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 10px auto;
+}
+.edu-template-left{
+    float: left;
+    width: 45%;
+}
+.edu-template-right{
+    float: right;
+    width: 45%;
+}
